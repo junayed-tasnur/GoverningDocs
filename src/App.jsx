@@ -4,9 +4,9 @@ import Navbar from "./components/share/Navbar";
 
 const App = () => {
   return <>
-    <main className="bg-sky-400/50">
+    <main className="">
       <Navbar />
-      
+      <div className="min-h-[50svh]"></div>
       <Footer />
   </main>
   </>;
