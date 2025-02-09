@@ -26,7 +26,7 @@ const Navbar = () => {
             </div>
             <div className="flex items-center justify-center gap-2">
               <button
-                className="lg:hidden block text-tertiary "
+                className="lg:hidden block text-tertiary cursor-pointer "
                 onClick={toggleMenu}
               >
                 <div className="space-y-1">

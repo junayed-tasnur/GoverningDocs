@@ -12,7 +12,7 @@ const Footer = () => {
             </h1>
             <div className="hidden lg:flex items-center justify-center gap-3 xl:gap-4 font-secondary">
               {navItems.map(({ label, link }, i) => (
-                <a href={link}>
+                <a href={link} key={i}>
                   <p className="text-tertiary text-sm xl:text-base hover:text-primary transition-colors duration-150">
                     {label}
                   </p>
