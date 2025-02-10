@@ -1,4 +1,3 @@
-import React from "react";
 import { cn } from "../liba/utili/cn";
 
 // background: linear-gradient(180deg, #00D2FF 0%, #059DBE 100%);

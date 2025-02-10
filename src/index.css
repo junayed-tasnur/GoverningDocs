@@ -4,7 +4,6 @@
 /* font awesome */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
 
-
 /* tailwindcss */
 @import "tailwindcss";
 
@@ -17,12 +16,8 @@
   --color-primary: #00d2ff;
   --color-secondary: #2d2d2d;
   --color-tertiary: #666666;
-  
-
-  /* gradient color list */
-  --gradient-primary: ;
-
-  --gradient-secondary: ;
+  /* shadow */
+  --shadow-primary: 0px 4px 15px 0px #0000001a;
 }
 
 @layer utilities {
@@ -36,13 +31,10 @@
     background: linear-gradient(180deg, #00d2ff 0%, #059dbe 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
+}
 
-  .footer-border-gradient{
-    border-image-source: linear-gradient(180deg, #00d2ff 0%, #059dbe 100%) ;
+  .footer-border-gradient {
+    border-image-source: linear-gradient(180deg, #00d2ff 0%, #059dbe 100%);
     border-image-slice: 1;
   }
 }
-
- 
-

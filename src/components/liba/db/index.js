@@ -1,3 +1,4 @@
+
 export const navItems = [
   {
     label: "Problem & Solution",
@@ -39,3 +40,5 @@ export const socialIcons = [
     url: "https://www.x.com",
   },
 ];
+
+
